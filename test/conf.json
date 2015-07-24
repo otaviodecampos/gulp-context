@@ -1,0 +1,26 @@
+{
+	"build": {
+		"sourceDir": "app/source/",
+		"targetDir": "app/build/",
+		"path": {
+			"assets": "assets/",
+			"js": "assets/js/",
+			"styles": "assets/styles/",
+			"vendor": "assets/vendor/"
+		}
+	},
+	"environments": {
+		"development": {
+			"default": true,
+			"tasks": {
+				"development/test": true
+			}
+		},
+		"production": {
+			"baseEnv": "development",
+			"tasks": {
+				"production/test": true
+			}
+		}
+	}
+}

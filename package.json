@@ -1,0 +1,17 @@
+{
+  "name": "gulp-dinamico",
+  "version": "0.0.1",
+  "author": "otaviodecampos",
+  "main": "lib/index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.4.1",
+    "lodash": "^3.6.0",
+    "merge-stream": "^0.1.7"
+  }
+}
