@@ -1,5 +1,6 @@
 {
 	"build": {
+		"tasksDir": "tasks",
 		"sourceDir": "app/source/",
 		"targetDir": "app/build/",
 		"path": {

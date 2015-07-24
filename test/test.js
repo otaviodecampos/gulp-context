@@ -1,4 +1,4 @@
 var conf =  require('./conf.json')
-    , gulpdinamico = require('../lib')(conf);
+    , gulpdinamico = require('../lib');
 
-gulpdinamico.build();
+gulpdinamico.build(conf);
