@@ -1,9 +1,8 @@
 {
 	"build": {
-		"tasksDir": "tasks",
 		"sourceDir": "app/source/",
 		"targetDir": "app/build/",
-		"path": {
+		"paths": {
 			"assets": "assets/",
 			"js": "assets/js/",
 			"styles": "assets/styles/",
@@ -13,14 +12,9 @@
 	"environments": {
 		"development": {
 			"default": true,
+			"tasksDir": "tasks/development",
 			"tasks": {
-				"development/test": true
-			}
-		},
-		"production": {
-			"baseEnv": "development",
-			"tasks": {
-				"production/test": true
+				"copy/test": true
 			}
 		}
 	}

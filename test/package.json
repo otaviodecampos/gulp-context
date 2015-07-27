@@ -1,12 +1,12 @@
 {
-  "name": "gulp-dinamico",
+  "name": "gulp-dinamico-test",
   "version": "0.0.1",
   "author": "otaviodecampos",
-  "main": "lib/index.js",
   "dependencies": {
 
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+	  "gulp-dinamico": "../"
   }
 }
