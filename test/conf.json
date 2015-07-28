@@ -13,8 +13,19 @@
 		"development": {
 			"default": true,
 			"tasksDir": "tasks/development",
+			"clean": true,
 			"tasks": {
-				"copy/test": true
+				"copy/test2": {
+					"dep": ["copy/test3", "copy/test4"]
+				},
+				"copy/test3": {
+					"enabled": true,
+					"dep": "copy/test"
+				},
+				"copy/test4": {
+					"dep": "copy/test"
+				},
+				"copy/test": false
 			}
 		}
 	}
