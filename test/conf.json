@@ -1,5 +1,5 @@
 {
-	"build": {
+	"params": {
 		"sourceDir": "app/source/",
 		"targetDir": "app/build/",
 		"paths": {
