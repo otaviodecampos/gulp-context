@@ -14,6 +14,7 @@
 			"default": true,
 			"tasksDir": "tasks/development",
 			"clean": true,
+			"watch": true,
 			"tasks": {
 				"copy/test2": {
 					"dep": ["copy/test3", "copy/test4"]
