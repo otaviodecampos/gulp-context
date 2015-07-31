@@ -1,12 +1,12 @@
 {
 	"params": {
-		"sourceDir": "app/source/",
-		"targetDir": "app/build/",
+		"source": "app/source/",
+		"target": "app/build/",
 		"paths": {
-			"assets": "assets/",
-			"js": "assets/js/",
-			"styles": "assets/styles/",
-			"vendor": "assets/vendor/"
+			"assets": "/assets/",
+			"js": "/assets/js/",
+			"styles": "/assets/styles/",
+			"vendor": "/assets/vendor/"
 		}
 	},
 	"environments": {
@@ -14,7 +14,7 @@
 			"default": true,
 			"tasksDir": "tasks/development",
 			"clean": true,
-			"watch": true,
+			"watch": false,
 			"tasks": {
 				"copy/test2": {
 					"dep": ["copy/test3", "copy/test4"]
