@@ -1,12 +1,11 @@
 {
-  "name": "gulp-dinamico-test",
-  "version": "0.0.1",
-  "author": "otaviodecampos",
-  "dependencies": {
-
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-	  "gulp-dinamico": "../"
-  }
+    "name": "gulp-context-test",
+    "version": "0.0.1",
+    "author": "otaviodecampos",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-context": "../"
+    }
 }

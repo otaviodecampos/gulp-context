@@ -1,33 +1,36 @@
 {
-	"params": {
-		"source": "app/source/",
-		"target": "app/build/",
-		"paths": {
-			"assets": "/assets/",
-			"js": "/assets/js/",
-			"styles": "/assets/styles/",
-			"vendor": "/assets/vendor/"
-		}
-	},
-	"environments": {
-		"development": {
-			"default": true,
-			"tasksDir": "tasks/development",
-			"clean": true,
-			"watch": false,
-			"tasks": {
-				"copy/test2": {
-					"dep": ["copy/test3", "copy/test4"]
-				},
-				"copy/test3": {
-					"enabled": true,
-					"dep": "copy/test"
-				},
-				"copy/test4": {
-					"dep": "copy/test"
-				},
-				"copy/test": false
-			}
-		}
-	}
+    "scope": {
+        "source": "app/source/",
+        "target": "app/build/",
+        "paths": {
+            "assets": "/assets/",
+            "js": "/assets/js/",
+            "styles": "/assets/styles/",
+            "vendor": "/assets/vendor/"
+        }
+    },
+    "context": {
+        "development": {
+            "default": true,
+            "clean": true,
+            "watch": false,
+            "taskDir": "tasks/development",
+            "task": {
+                "copy/test2": {
+                    "dep": [
+                        "copy/test3",
+                        "copy/test4"
+                    ]
+                },
+                "copy/test3": {
+                    "enabled": true,
+                    "dep": "copy/test"
+                },
+                "copy/test4": {
+                    "dep": "copy/test"
+                },
+                "copy/test": false
+            }
+        }
+    }
 }
