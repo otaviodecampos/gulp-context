@@ -1,11 +1,11 @@
 {
-    "name": "gulp-context-test",
-    "version": "0.0.1",
-    "author": "otaviodecampos",
-    "dependencies": {
-    },
-    "devDependencies": {
-        "gulp": "^3.9.0",
-        "gulp-context": "../"
-    }
+  "name": "gulp-context-test",
+  "version": "0.0.1",
+  "author": "otaviodecampos",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-angular-htmlify": "^2.3.0",
+    "gulp-context": "../"
+  }
 }

@@ -1,7 +1,7 @@
 {
     "scope": {
-        "source": "app/source/",
-        "target": "app/build/",
+        "source-dir": "app/source/",
+        "target-dir": "app/build/",
         "paths": {
             "assets": "/assets/",
             "js": "/assets/js/",
@@ -14,7 +14,7 @@
             "default": true,
             "clean": true,
             "watch": false,
-            "taskDir": "tasks/development",
+            "task-dir": "tasks/development",
             "task": {
                 "copy/test2": {
                     "dep": [
@@ -30,6 +30,14 @@
                     "dep": "copy/test"
                 },
                 "copy/test": false
+            }
+        },
+        "production": {
+            "clean": true,
+            "from-target-context": "development",
+            "task-dir": "tasks/production",
+            "task": {
+                "test": true
             }
         }
     }

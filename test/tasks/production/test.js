@@ -1,11 +1,13 @@
-function copy (source, target, paths) {
+var gulp = require('gulp');
+var htmlify = require('gulp-angular-htmlify');
 
-  var input = [
-		source + '**/*.html'
-	];
+function copy() {
 
-  return gulp.src(input)
-    .pipe(gulp.dest(target));
+    var input = [this.sourceDir + '**/*.html'];
+
+    return gulp.src(this.watch(input))
+        .pipe(htmlify())
+        .pipe(gulp.dest(this.targetDir));
 }
 
 module.exports = copy;

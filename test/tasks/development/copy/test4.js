@@ -2,10 +2,10 @@ var gulp = require('gulp');
 
 function copy() {
 
-    var input = [this.source + '**/*.html'];
+    var input = [this.sourceDir + '**/*.html'];
 
     return gulp.src(this.watch(input))
-        .pipe(gulp.dest(this.target));
+        .pipe(gulp.dest(this.targetDir));
 }
 
 module.exports = copy;
