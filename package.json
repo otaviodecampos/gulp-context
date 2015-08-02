@@ -1,11 +1,13 @@
 {
-    "name": "gulp-context",
-    "version": "0.0.1",
-    "author": "otaviodecampos",
-    "main": "lib/index.js",
-    "dependencies": {
-    },
-    "devDependencies": {
-        "gulp": "^3.9.0"
-    }
+  "name": "gulp-context",
+  "version": "0.0.1",
+  "author": "otaviodecampos",
+  "main": "lib/index.js",
+  "dependencies": {
+    "chalk": "^1.1.0"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0"
+  }
 }
