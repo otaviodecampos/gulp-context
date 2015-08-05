@@ -4,7 +4,7 @@
   "author": "otaviodecampos",
   "main": "lib/index.js",
   "dependencies": {
-    "chalk": "^1.1.0"
+
   },
   "devDependencies": {
     "del": "^1.2.0",
