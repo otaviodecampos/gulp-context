@@ -5,7 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-angular-htmlify": "^2.3.0",
-    "gulp-context": "../"
+    "gulp-context": "../",
+    "gulp-minify-html": "^1.0.4"
   }
 }
