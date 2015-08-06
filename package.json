@@ -1,14 +1,11 @@
 {
   "name": "gulp-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "otaviodecampos",
-  "description": "Terminal string styling done right. Much color.",
+  "description": "A tool to organize the structure of gulp tasks by context.",
   "license": "MIT",
   "maintainers": [
-    {
-      "name": "otaviodecampos",
-      "email": "otaviodecampos@hotmail.com"
-    }
+    "otaviodecampos <otaviodecampos@hotmail.com>"
   ],
   "keywords": [
     "gulp",
@@ -24,11 +21,20 @@
     "sorting"
   ],
   "main": "lib/index.js",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "del": "^1.2.0",
     "gulp": "^3.9.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/otaviodecampos/gulp-context.git"
+  },
+  "homepage": "https://bitbucket.org/otaviodecampos/gulp-context#readme"
 }
