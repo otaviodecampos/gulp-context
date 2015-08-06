@@ -1,6 +1,6 @@
 {
   "name": "gulp-context",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": "otaviodecampos",
   "description": "A tool to organize the structure of gulp tasks by context.",
   "license": "MIT",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/otaviodecampos/gulp-context.git"
+    "url": "git+https://github.com/otaviodecampos/gulp-context.git"
   },
-  "homepage": "https://bitbucket.org/otaviodecampos/gulp-context#readme"
+  "homepage": "https://github.com/otaviodecampos/gulp-context#readme"
 }
