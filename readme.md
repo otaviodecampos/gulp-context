@@ -4,7 +4,7 @@ Context tasks for gulp
 
 ## Description
 
-A tool to organize the structure of gulp tasks by context.
+Organize the structure of gulp tasks by context.
 Provides sorting tasks, separation of files and folders, and fully configurable and customizable.
 
 ## Dependencies
@@ -97,7 +97,7 @@ module.exports = function () {
 ## Usage
 
 #### Set in gulpfile.js
- 
+
 ```javascript
 var conf = require('./conf.json')
     , gulpc = require('gulp-context');

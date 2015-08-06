@@ -2,13 +2,14 @@
   "name": "gulp-context",
   "version": "0.0.7",
   "author": "otaviodecampos",
-  "description": "A tool to organize the structure of gulp tasks by context.",
+  "description": "Organize the structure of gulp tasks by context.",
   "license": "MIT",
   "maintainers": [
     "otaviodecampos <otaviodecampos@hotmail.com>"
   ],
   "keywords": [
     "gulp",
+    "task",
     "tool",
     "context",
     "folder",
