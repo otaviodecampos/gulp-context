@@ -2,6 +2,27 @@
   "name": "gulp-context",
   "version": "0.0.1",
   "author": "otaviodecampos",
+  "description": "Terminal string styling done right. Much color.",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "otaviodecampos",
+      "email": "otaviodecampos@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "gulp",
+    "tool",
+    "context",
+    "folder",
+    "order",
+    "watch",
+    "clean",
+    "customizable",
+    "files",
+    "configurable",
+    "sorting"
+  ],
   "main": "lib/index.js",
   "dependencies": {
 
