@@ -1,6 +1,6 @@
 {
   "name": "gulp-context",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "author": "otaviodecampos",
   "description": "A tool to organize the structure of gulp tasks by context.",
   "license": "MIT",
@@ -21,9 +21,10 @@
     "sorting"
   ],
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "del": "^1.2.0"
+  },
   "devDependencies": {
-    "del": "^1.2.0",
     "gulp": "^3.9.0"
   },
   "directories": {
