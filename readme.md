@@ -5,11 +5,11 @@ Context tasks for gulp
 ## Description
 
 Organize the structure of gulp tasks by context.
-Provides sorting tasks, separation of files and folders, and fully configurable and customizable.
+Provides sorting tasks, separation of files and folders, and fully configurable.
 
 ## Dependencies
 
-This package use gulp ^3.9.0 and require global installation.
+This package use gulp and require global installation.
 
 ```
 $ npm install gulp -g
@@ -18,7 +18,7 @@ $ npm install gulp -g
 ## Installation
 
 ```
-$ npm install gulp-context --save-dev
+$ npm install gulp gulp-context --save-dev
 ```
 
 ## Configuration
@@ -93,6 +93,31 @@ module.exports = function () {
 }
 
 ```
+
+###### Scope
+
+Each context, before performing the tasks, will parse the scope object values.
+When the tasks are performed, the parsed object will be used as scope (__this__).
+
+A parser (_defaultparser_) solves the value of _target-dir_ fields, _source-dir_ and _paths_.
+
+You can add other parsers:
+
+```javascript
+var conf = require('./conf.json')
+    , gulpc = require('gulp-context');
+
+function parser(scope) {
+	// this is the context
+	if(this.getName() == 'development')  scope.targetDir = 'app/dist';
+	
+	return scope;
+}
+
+gulpc.addParser(parser).build(conf);
+```
+
+
 
 ## Usage
 
