@@ -1,6 +1,6 @@
 {
   "name": "gulp-context",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": "otaviodecampos",
   "description": "Organize the structure of gulp tasks by context.",
   "license": "MIT",
