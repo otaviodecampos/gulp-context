@@ -1,11 +1,16 @@
 {
   "name": "gulp-context",
-  "version": "0.0.13",
-  "author": "otaviodecampos",
+  "version": "0.0.14",
+  "author": {
+    "name": "otaviodecampos"
+  },
   "description": "Organize the structure of gulp tasks by context.",
   "license": "MIT",
   "maintainers": [
-    "otaviodecampos <otaviodecampos@hotmail.com>"
+    {
+      "name": "otaviodecampos",
+      "email": "otaviodecampos@hotmail.com"
+    }
   ],
   "keywords": [
     "gulp",
@@ -39,5 +44,24 @@
     "type": "git",
     "url": "git+https://github.com/otaviodecampos/gulp-context.git"
   },
-  "homepage": "https://github.com/otaviodecampos/gulp-context#readme"
+  "homepage": "https://github.com/otaviodecampos/gulp-context#readme",
+  "gitHead": "7603c0a2a8053498cbbbaa1ee1ab318e9aefa497",
+  "bugs": {
+    "url": "https://github.com/otaviodecampos/gulp-context/issues"
+  },
+  "_id": "gulp-context@0.0.13",
+  "_shasum": "2df77c6ee825f778f804e38c5001c2ff51e5f55d",
+  "_from": "gulp-context@0.0.13",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "otaviodecampos",
+    "email": "otaviodecampos@hotmail.com"
+  },
+  "dist": {
+    "shasum": "2df77c6ee825f778f804e38c5001c2ff51e5f55d",
+    "tarball": "http://registry.npmjs.org/gulp-context/-/gulp-context-0.0.13.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/gulp-context/-/gulp-context-0.0.13.tgz",
+  "readme": "ERROR: No README data found!"
 }
