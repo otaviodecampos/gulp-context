@@ -1,0 +1,27 @@
+{
+    "development": {
+        "default": true,
+        "clean": true,
+        "watch": true,
+        "task-dir": "tasks/development",
+        "path": {
+            "srcDir": "src",
+            "buildDir": "dist"
+        },
+        "task": {
+            "copy": true
+        }
+    },
+    "production": {
+        "clean": true,
+        "after": "development",
+        "task-dir": "tasks/production",
+        "path": {
+            "srcDir": "dist",
+            "buildDir": "dist.min"
+        },
+        "task": {
+            "minifyHtml": true
+        }
+    }
+}

@@ -2,10 +2,9 @@
   "name": "gulp-context-example",
   "version": "0.0.1",
   "author": "otaviodecampos",
-  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-context": "0.0.10",
+    "gulp-context": "0.0.16",
     "gulp-minify-html": "^1.0.4"
   }
 }
